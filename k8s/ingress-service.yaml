@@ -16,7 +16,7 @@ spec:
       secretName: wanntech-dk
   rules:
     - host: wanntech.dk
-    - http:
+      http:
         paths:
           - path: /?(.*)
             pathType: Prefix
@@ -33,7 +33,7 @@ spec:
                 port:
                   number: 5000
     - host: www.wanntech.dk
-    - http:
+      http:
         paths:
           - path: /?(.*)
             pathType: Prefix
