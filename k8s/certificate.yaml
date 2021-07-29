@@ -1,0 +1,14 @@
+apiVersion: cert-manager.io/v1
+ 
+kind: Certificate
+metadata:
+  name: wanntech-com-tls
+spec:
+  secretName: wanntech-com
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: wanntech.com
+  dnsNames:
+    - wanntech.com
+    - www.wanntech.com
