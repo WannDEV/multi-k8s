@@ -8,7 +8,7 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: wanntech.com
+  commonName: wanntech.dk
   dnsNames:
-    - wanntech.com
-    - www.wanntech.com
+    - wanntech.dk
+    - www.wanntech.dk
