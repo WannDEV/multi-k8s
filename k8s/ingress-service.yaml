@@ -13,7 +13,7 @@ spec:
     - hosts:
         - wanntech.dk
         - www.wanntech.dk
-      secretName: wanntech-com
+      secretName: wanntech-dk
   rules:
     - host: wanntech.dk
     - http:
